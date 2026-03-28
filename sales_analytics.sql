@@ -1,4 +1,4 @@
-
+ 
 --  CREATE A TABLE 
 CREATE TABLE sales_analytics (
 	Order_Id INT PRIMARY KEY,
