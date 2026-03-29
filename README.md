@@ -26,10 +26,16 @@ Identified peak sales hours using hourly order analysis and evaluated product pe
 Analyzed customer segments to understand purchasing behavior.
 Generated aggregated datasets for dashboard development.
 
-## Power BI Dashboard
+## Power BI Dashboard:-
 Developed an interactive Power BI dashboard for retail sales analysis.
 Implemented KPI section to track total revenue, total orders, and average order value.
 Visualized monthly and daily sales trends to identify performance patterns and analyzed peak sales hours to understand customer activity.
 Identified top-performing products based on revenue andCompared sales performance across different cities.
 Analyzed customer segments to understand contribution to total revenue.
 Added slicers (Category, City, Segment, Month) for dynamic filtering and designed dashboard layout with clean structure and interactive visuals.
+
+## Members and Responsisbilities:-
+Subhojit - Excel Handling
+Harsh - SQL Analysis
+Sampath - Python EDA
+Hanok(TL) - Power BI Dashboard and GitHub Control
