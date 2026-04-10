@@ -27,7 +27,7 @@ Analyzed customer segments to understand purchasing behavior.
 Generated aggregated datasets for dashboard development.
 
 ## Power BI Dashboard:-
-Developed an interactive Power BI dashboard for retail sales analysis.
+Developed an interactive dashboard to visualize sales performance and trends.
 Implemented KPI section to track total revenue, total orders, and average order value.
 Visualized monthly and daily sales trends to identify performance patterns and analyzed peak sales hours to understand customer activity.
 Identified top-performing products based on revenue andCompared sales performance across different cities.
