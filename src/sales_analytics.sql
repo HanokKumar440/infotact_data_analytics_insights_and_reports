@@ -57,7 +57,8 @@ GROUP BY Order_Id,Order_Date,Order_Month_Num,Order_Month,Order_Time,Order_Hour,O
 Product_Id,Product_Name,Category,Quantity,Unit_Price,Discount,Revenue,City,State,Store_Type,
 Customer_Id,Customer_Segment HAVING COUNT(*) >1;
 
--- KPI QUERIES
+-- KPI Queries for Insights
+   
 
 -- Total Revanue
 SELECT SUM(Revenue) AS Total_Revnue
