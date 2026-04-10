@@ -138,7 +138,7 @@ FROM sales_analytics
 GROUP BY Quarter
 ORDER BY Quarter;
 
--- Time-Based Insights
+-- Time-Based Insights for detailed understanding
 
 -- Hour Base Orders
 SELECT 
