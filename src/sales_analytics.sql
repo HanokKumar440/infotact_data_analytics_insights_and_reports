@@ -48,7 +48,7 @@ SELECT
 	SUM(CASE WHEN Customer_Segment IS NULL then 1 ELSE 0 END)AS Customer_Segment
 FROM sales_analytics;
 
--- DUBLLICATE DETECTION
+-- Duplicate Detection for any same or mistaken values
 SELECT 
 Order_Id,Order_Date,Order_Month_Num,Order_Month,Order_Time,Order_Hour,Order_Time_Period,
 Product_Id,Product_Name,Category,Quantity,Unit_Price,Discount,Revenue,City,State,Store_Type,
