@@ -246,7 +246,7 @@ SELECT City,
 FROM sales_analytics
 GROUP BY City,State;
 
--- Revenue City and State by Store Type
+-- Revenue Analysis for City and State by Store Type
 
 SELECT city, state,
        store_type,
