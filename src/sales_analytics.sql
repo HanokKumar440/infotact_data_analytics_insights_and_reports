@@ -107,7 +107,7 @@ SUM(Revenue) AS Revenue
 FROM sales_analytics
 GROUP BY Year
 
--- Order Trend Analysis
+-- Order Trend Analysis based on orders and time periods
 
 -- Order Trend Analysis
 SELECT 
