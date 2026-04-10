@@ -1,3 +1,5 @@
+-- Retail Sales Analysis using SQL
+-- This file contains queries for analyzing sales performance
  
 --  CREATE A TABLE 
 CREATE TABLE sales_analytics (
