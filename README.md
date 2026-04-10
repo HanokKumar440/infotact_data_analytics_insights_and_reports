@@ -8,9 +8,9 @@ Performed initial data cleaning and preprocessing using Excel
 Worked on data cleaning by handling missing values and removing duplicates and standardized date and numerical formats for consistency.
 Calculated column for revenue using quantity and unit price.
 Used sorting and filtering to validate data accuracy and built pivot tables to analyze sales by category, city, and product for further analysis.
-Derived data into raw, clean, master pivot and sub-pivots
+Created pivot tables for sales trends
 Dataset loaded into MySQL table: retail_sales_dataset
-Total records: 5000
+Total defined records: 5000
 
 # SQL Insights:-
 Analyzed sales data using SQL to identify top-performing categories, cities, and products contributing most to overall revenue.
