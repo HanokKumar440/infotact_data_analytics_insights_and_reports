@@ -4,7 +4,7 @@ By processing and exploring the data, we aim to uncover key sales trends, evalua
 The project builds a complete data analytics pipeline and presents the results through an interactive dashboard to support data-driven business decisions.
 
 # Excel Insights:-
-Initial dataset loaded and reviewed for structure and completeness.
+Performed initial data cleaning and preprocessing using Excel.
 Performed data cleaning by handling missing values and removing duplicates and standardized date and numerical formats for consistency.
 Created calculated column for revenue using quantity and unit price.
 Used sorting and filtering to validate data accuracy and built pivot tables to analyze sales by category, city, and product.
