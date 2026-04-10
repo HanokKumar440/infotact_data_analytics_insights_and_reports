@@ -34,6 +34,9 @@ Analyzed customer segments to understand contribution to total revenue.
 Identified top-performing products based on revenue andCompared sales performance across different cities.
 Added slicers (Category, City, Segment, Month) for dynamic filtering and designed dashboard layout with clean structure and interactive visuals.
 
+## Conclusion
+This project demonstrates a complete data analytics workflow from data cleaning to visualization using Excel, SQL, Python, and Power BI.
+
 ## Members and Responsisbilities:-
 Subhojit - Excel Handling
 Harsh - SQL Analysis
