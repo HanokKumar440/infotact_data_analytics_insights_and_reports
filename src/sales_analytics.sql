@@ -58,7 +58,7 @@ Product_Id,Product_Name,Category,Quantity,Unit_Price,Discount,Revenue,City,State
 Customer_Id,Customer_Segment HAVING COUNT(*) >1;
 
 -- KPI Queries for Insights
-   
+
 
 -- Total Revanue
 SELECT SUM(Revenue) AS Total_Revnue
@@ -73,7 +73,7 @@ SELECT SUM(Discount) AS Total_Discount
 FROM sales_analytics;
 
 -- Avarage Revanue
-SELECT ROUND(SUM(Revenue),2)AS Avg_Revnue
+SELECT ROUND(SUM(Revenue),2)AS Avg_Revnue    
 FROM sales_analytics;
 
 -- Avarage Orders
@@ -84,7 +84,7 @@ FROM sales_analytics;
 SELECT SUM(Quantity) AS Total_Units_Sold
 FROM sales_analytics;
 
--- Revenue Sales Analysis 
+-- Revenue Sales Analysis by time periods
 
 -- Monthly Sales Trend
 SELECT Order_month AS Month,
@@ -101,7 +101,7 @@ FROM sales_analytics
 GROUP BY 1
 ORDER BY 2 DESC;
 
--- Year Over Year Groth
+-- Yearly Growth using extraction
 SELECT EXTRACT(YEAR FROM Order_Date) AS Year,
 SUM(Revenue) AS Revenue
 FROM sales_analytics
