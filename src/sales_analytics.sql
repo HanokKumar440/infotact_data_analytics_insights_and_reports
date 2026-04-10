@@ -284,7 +284,7 @@ WHERE Rnk = 1
 ORDER BY Revenue DESC;
 
 
--- Online VS Offline Chennel Analysis
+-- Online VS Offline Channel Analysis
 
 -- Revenue and Total Orders 
 SELECT Store_Type,
@@ -315,7 +315,7 @@ SELECT
 FROM sales_analytics
 GROUP BY Customer_Segment;
 
--- Total Order by Customer Segement
+-- Total Order by Customer Segment
 SELECT
 	Customer_Segment,
 	COUNT(order_Id) as Total_Order
@@ -338,7 +338,7 @@ GROUP BY 1,2
 ORDER BY Lifetime_Revenue DESC
 LIMIT 10;
 
--- Discount Impact Analysis
+-- Discount Analysis
 SELECT CASE
 		WHEN Discount = 0 THEN 'NO Discount'
 		WHEN Discount <= 0.05 THEN '1-5%'
