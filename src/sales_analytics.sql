@@ -1,7 +1,7 @@
 -- Retail Sales Analysis using SQL
 -- This file contains queries for analyzing sales performance
- 
---  CREATE A TABLE 
+
+--  CREATE A TABLE for aggregation
 CREATE TABLE sales_analytics (
 	Order_Id INT PRIMARY KEY,
 	Order_Date DATE,
@@ -26,7 +26,7 @@ CREATE TABLE sales_analytics (
 
 select * from sales_analytics;
 
--- NULL VALUE CHECKING
+-- Null Values checking for any missing values
 SELECT
 	SUM(CASE WHEN Order_Id IS NULL THEN 1 ELSE 0 END) AS Order_Id,
 	SUM(CASE WHEN Order_Date IS NULL THEN 1 ELSE 0 END) AS Order_Date,
