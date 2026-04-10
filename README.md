@@ -30,8 +30,8 @@ Generated aggregated datasets for dashboard development.
 Developed an interactive dashboard to visualize sales performance and trends.
 Implemented KPI section to track total revenue, total orders, and average order value.
 Visualized monthly and daily sales trends to identify performance patterns and analyzed peak sales hours to understand customer activity.
-Identified top-performing products based on revenue andCompared sales performance across different cities.
 Analyzed customer segments to understand contribution to total revenue.
+Identified top-performing products based on revenue andCompared sales performance across different cities.
 Added slicers (Category, City, Segment, Month) for dynamic filtering and designed dashboard layout with clean structure and interactive visuals.
 
 ## Members and Responsisbilities:-
