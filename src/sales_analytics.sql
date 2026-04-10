@@ -227,15 +227,15 @@ FROM sales_analytics
 GROUP BY Category,Product_Name
 ORDER BY Category,Rank_In_Category;
 
---Geographical Sales insights
+--Geographical Sales Insights
 
--- Total Revenue  by City Wise
+-- Total Revenue by City Wise
 SELECT City,SUM(Revenue) AS Total_Revenue
 FROM sales_Analytics
 GROUP BY City
 ORDER BY Total_Revenue DESC;
 
--- Revenue Analysis By City and State
+-- Revenue Analysis by City and State
 SELECT City,
 	State,
 	COUNT(Order_Id) AS Total_Orders,
@@ -246,7 +246,7 @@ SELECT City,
 FROM sales_analytics
 GROUP BY City,State;
 
--- Revenue city and State by Store Type bise
+-- Revenue City and State by Store Type
 
 SELECT city, state,
        store_type,
